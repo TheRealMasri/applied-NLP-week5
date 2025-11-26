@@ -1,11 +1,35 @@
-# Session X — Course Y
+# Session 5 — Retrieval-Augmented Generation (RAG)
 
-This repository contains the materials for **Session X** of *Course Y*.  
+This repository contains the materials for **Session 5** of *Applied NLP*.  
 - Slides: see [`slides/`](./slides/) folder  
 - Notebooks: see [`notebooks/`](./notebooks/) folder 
 ---
 
 ## 📑 Session Outline
+
+This session introduces **Retrieval-Augmented Generation (RAG)**, a technique that combines information retrieval with large language models to answer questions based on external documents.
+
+### What you'll learn:
+
+1. **Text Chunking** — Split long documents into overlapping chunks for efficient retrieval
+2. **Embeddings** — Convert text chunks into semantic vector representations
+3. **Vector Databases** — Store and search embeddings using FAISS
+4. **Retrieval Chains** — Build a complete RAG pipeline connecting retrieval + generation
+5. **Local LLM Integration** — Use Ollama for API-free local inference
+
+### Dataset:
+
+We use Lewis Carroll's two *Alice* books as our corpus like all previous sessions:
+- *Alice's Adventures in Wonderland*
+- *Through the Looking-Glass*
+
+### Key Technologies:
+
+- **LangChain** — Framework for building LLM applications
+- **FAISS** — Facebook AI Similarity Search for vector storage
+- **Sentence Transformers** — Embedding models (`all-mpnet-base-v2`)
+- **Ollama** — Local LLM runtime (using `llama3.2` model)
+- **LangSmith** — Prompt hub for retrieval templates
 
 
 ---
