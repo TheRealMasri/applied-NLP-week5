@@ -212,3 +212,4 @@ __marimo__/
 
 # Vector databases
 /vector_databases
+.python-version
